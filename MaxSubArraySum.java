@@ -1,4 +1,4 @@
-
+//Kadans Algorithm..
 package com.mycompany.maxsubarraysum;
 
 import java.util.Scanner;
