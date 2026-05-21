@@ -17,7 +17,7 @@ public class StringMatching {
         int n = pattern.length();
         int m = text.length();
         System.out.println("Founding position: ");
-        for (int i = 0; i < m-n; i++) {    //text
+        for (int i = 0; i <=m-n; i++) {    //text
            int f = 1;
             for (int j = 0; j <n; j++) {    //pattern 
                 if(pattern.charAt(j)!=text.charAt(i+j))
