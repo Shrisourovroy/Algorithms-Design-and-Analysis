@@ -30,7 +30,7 @@ public class CoinChangingProblem {
                 m = m%arr[i];
             }
         }
-        System.out.println("<Minimum coin need: "+count);
+        System.out.println("Minimum coin need: "+count);
         
     }
 }
