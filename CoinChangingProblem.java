@@ -22,13 +22,17 @@ public class CoinChangingProblem {
         int m = sc.nextInt();
         for (int i = n-1; i >=0; i--) {
             if(m%arr[i]==0){
+                System.out.print(arr[i]+" ");
                 count = count + m/arr[i];
             }
             else
             {
+                if(m>arr[i]){
+                System.out.print(arr[i]+" ");
                 count = count +m/arr[i];
                 m = m%arr[i];
-            }
+                }
+            }  
         }
         System.out.println("Minimum coin need: "+count);
         
