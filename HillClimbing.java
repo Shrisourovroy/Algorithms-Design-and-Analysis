@@ -47,6 +47,13 @@ public class HillClimbing {
         for (int j = 0; j < m; j++) {
             result = Math.min(result, dp[n-1][j]);
         }
+        //another option to find minimum cost
+        /*int min = dp[n-1][0];
+        for (int j = 1; j < m; j++) {
+            if(min>dp[n-1][j]){
+                min = dp[n-1][j];
+            }
+        }*/ 
         System.out.println("Minimum climbing cost: "+result);
         
     }
